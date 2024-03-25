@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#188A1D">
+
+    <ImageView
+        android:layout_width="700dp"
+        android:paddingRight="350dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/register"/>
+
+    <TextView
+        android:id="@+id/textREGISTER"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textSize="40sp"
+        android:textColor="#050505"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="18dp"
+        android:drawableLeft="@drawable/ucername3"/>
+
+    <EditText
+        android:id="@+id/et_imel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp"
+        android:maxWidth="20dp"
+        android:maxHeight="70dp"
+        android:gravity="left"/>
+
+    <EditText
+        android:id="@+id/et_sandi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp"
+        android:drawableLeft="@drawable/kunci1"/>
+
+    <Button
+        android:id="@+id/btndaftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:background="#804CAF50"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/et_masuk"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sudah Punya Akun?"
+        android:textSize="20dp"
+        android:textColor="#2E0135"
+        android:layout_gravity="left"/>
+
+    <TextView
+        android:id="@+id/btnlogin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="-30dp"
+        android:text="Silahkan Login"
+        android:textColor="@color/design_default_color_primary_variant"
+/>
+
+
+
+</LinearLayout>

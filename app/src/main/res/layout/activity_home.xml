@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#126115">
+
+
+    <ImageView
+        android:layout_width="700dp"
+        android:paddingRight="350dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/po"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO HOME"
+        android:layout_marginTop="120dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#F0F5F6"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnsendto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kirim Ke"
+        android:layout_marginTop="100dp"
+        android:textColor="#F3F6F6"
+        android:textSize="22dp"
+        android:background="#800DD815"/>
+
+
+    <ImageView
+        android:layout_width="700dp"
+        android:paddingRight="350dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+
+
+</LinearLayout>
